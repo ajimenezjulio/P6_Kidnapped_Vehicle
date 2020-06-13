@@ -8,6 +8,11 @@ The localization module is a critical one in a self driving vehicle. Localizatio
 
 To achieve an accuracy of 3-10 cm, sensor information from Laser sensor (LIDAR) and/or Radial distance and angle sensor (RADAR) is used and fused together using a Particle Filter.
 
+<p align="center"> 
+<img src="https://github.com/ajimenezjulio/P6_Kidnapped-Vehicle/blob/master/docs/kidnapped.gif">
+</p>
+
+
 ## Dependencies
 
 * cmake >= 3.5
@@ -31,7 +36,7 @@ Some scripts have been included to streamline this process, these can be leverag
 ```
 Tips for setting up your environment can be found [here](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/23d376c7-0195-4276-bdf0-e02f1f3c665d)
 
-## The Map*
+## The Map
 `map_data.txt` includes the position of landmarks (in meters) on an arbitrary Cartesian coordinate system. Each row has three columns
 1. x position
 2. y position
@@ -57,4 +62,3 @@ The directory structure of this repository is as follows:
     ├──  particle_filter.cpp
     ├──  particle_filter.h
 ```
-
