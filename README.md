@@ -56,8 +56,7 @@ The directory structure of this repository is as follows:
 ├── README.md
 ├── run.sh
 ├── data
-├   ├── map_data.txt   
-├
+    ├── map_data.txt   
 ├── src
     ├──  helper_functions.h
     ├──  main.cpp
